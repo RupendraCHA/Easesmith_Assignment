@@ -6,7 +6,7 @@ const Searchbar = () => {
     <div className='search-bar'>
         <div className='search-container'>
             <img src="/search.png" alt='search-icon'/>
-            <input type='text' className='search-input'/>
+            <input type='text' placeholder='Search Plant' className='search-input'/>
             <img src="/search_leaf.png" alt='search-icon'/>
         </div>
     </div>
