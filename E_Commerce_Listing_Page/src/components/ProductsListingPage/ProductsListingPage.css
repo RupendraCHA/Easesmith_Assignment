@@ -1,7 +1,7 @@
 .products-listing-page{
     display: flex;
     gap: 30px;
-    height: 100vh;
+    height: 120vh;
 
     .left{
         flex: 0.5;
@@ -24,9 +24,6 @@
         display: flex;
         align-items: center;
         gap: 20px;
-        position: sticky;
-        top: 0;
-        z-index: 1;
 
         p{
             color: grey;
@@ -39,6 +36,7 @@
             color: white;
             font-weight: 600;
             width: 100px;
+            cursor: pointer;
         }
        }
        .product-items-list{

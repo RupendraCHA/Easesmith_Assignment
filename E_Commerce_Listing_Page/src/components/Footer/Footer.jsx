@@ -13,6 +13,8 @@ const Footer = () => {
             under favourable growing conditions. In a nursery, seeds germinate effectively and seedlings give better stand in field.
             The nursery improves germination and colonization, saves time, space, labor and facilitates maintenance.
                     </p>
+                    <input type='email' placeholder='Enter your email address'/>
+                    <button className='subscribe-button'>Subscribe</button>
                 </div>
                 <div className='footer-content-center'>
                     <h2 className='section-heading'>ABOUT US</h2>

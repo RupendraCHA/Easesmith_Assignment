@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./ProductItem.css"
+import {Link} from 'react-router-dom'
+import { StoreContext } from '../../context/StoreContext'
 
 const ProductItem = (props) => {
 
@@ -15,12 +17,14 @@ const ProductItem = (props) => {
       rating
     } = product
 
+    const {productDetails, setProductDetails} = useContext(StoreContext)
+
   return (
     <div className='product-item'>
       <div className='image-container'>
         <img className="wishlist-icon" src={wishlist_icon} alt='wishlistIcon'/>
         <img className='plant-image' src={image} alt={product_name}/>
-        <button>View Product</button>
+        <Link to="/thankyou" onClick={() => setProductDetails(product)}><button>View Product</button></Link>
       </div>
       <div className='product-details'>
         <h3>{product_name}</h3>
