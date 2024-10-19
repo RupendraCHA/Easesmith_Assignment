@@ -1,0 +1,153 @@
+
+.contact-information-and-offer{
+  background-color: green;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 300px;
+  color: white;
+  font-weight: 700;
+}
+@media (max-width: 800px){
+  .contact-information-and-offer{
+    gap: 30px;
+  }
+}
+@media (min-width: 801px) and (max-width: 1100px){
+  .contact-information-and-offer{
+    gap: 50px;
+  }
+}
+.navbar {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .website-logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+.navbar .website-name {
+  font-size: max(2vw, 20px);
+  color: green;
+  font-weight: bold;
+  margin-left: 5px;
+}
+@media (max-width: 575px) {
+  .navbar .website-name {
+    padding: 5px 5px;
+    font-size: max(1.5vw, 12px);
+  }
+}
+.navbar .website-name:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  /* margin-left: 30px; */
+}
+@media (min-width: 801px) and (max-width: 1150px){
+  .navbar-menu a{
+      font-size: 12px;
+  }
+}
+.navbar .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid tomato;
+  color: tomato;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar-cart-icon {
+  position: relative;
+}
+.navbar-cart-icon .dot {
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  background-color: tomato;
+  border-radius: 50%;
+  top: -8px;
+  right: -8px;
+  padding: 5px;
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+}
+.nav-image{
+  width: 40px;
+  height: 40px;
+}
+@media (max-width: 800px){
+  .nav-image{
+    width: 30px;
+    height: 30px;
+  }
+}
+.navbar-right-logos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .navbar .logo {
+    width: 140px;
+  }
+  .navbar-menu {
+    gap: 20px;
+    font-size: 17px;
+  }
+  .navbar-right {
+    gap: 30px;
+  }
+  .navbar-right img {
+    width: 22px;
+  }
+  .navbar-right button {
+    padding: 8px 25px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar .logo {
+    width: 120px;
+  }
+  .navbar-menu {
+    gap: 15px;
+    font-size: 16px;
+  }
+  .navbar-right {
+    gap: 20px;
+  }
+  .navbar-right img {
+    width: 20px;
+  }
+  .navbar-right button {
+    padding: 7px 20px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navbar-menu {
+    display: none;
+  }
+}
+

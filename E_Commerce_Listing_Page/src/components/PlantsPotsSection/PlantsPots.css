@@ -1,0 +1,27 @@
+.plants-pots{
+    .plants-pots-buttons{
+        margin-bottom: 20px;
+        button{
+            width: 100px;
+            height: 35px;
+            
+        }
+        .plants{
+            margin-right: 12px;
+            background-color: green;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            border: 1px solid tomato;
+        }
+        .pots{
+            font-weight: 400;
+            border: 1px solid grey;
+            opacity: 0.8;
+            cursor: pointer;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+}
