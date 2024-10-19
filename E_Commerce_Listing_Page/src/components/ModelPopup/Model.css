@@ -10,7 +10,7 @@
 }
 .model-popup-container {
   place-self: center;
-  width: max(30vw, 330px);
+  width: max(30vw, 330px); 
   color: #808080;
   background-color: #fff;
   display: flex;
