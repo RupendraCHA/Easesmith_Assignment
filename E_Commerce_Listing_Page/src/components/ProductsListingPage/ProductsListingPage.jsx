@@ -7,7 +7,7 @@ import ProductItem from '../ProductItem/ProductItem'
 
 
 const ProductsListingPage = () => {
-  return (
+  return (<>
     <div className='products-listing-page'>
         <div className='left'>
             <div className='filter-heading'>
@@ -40,8 +40,13 @@ const ProductsListingPage = () => {
                     })
                 }
             </div>
+            
         </div>
     </div>
+    <div className='pagination'>
+        <button>Pagination</button>
+    </div>
+    </>
   )
 }
 

@@ -49,6 +49,303 @@ export const productsListArray = [
         discounted_price: 299,
         rating: 4.9,
 
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_1,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_2,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_3,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_1,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_2,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_3,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_1,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_2,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_3,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_1,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_2,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_3,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_1,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_2,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_3,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_1,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_2,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_3,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    }
+    ,{
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_1,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_2,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_3,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_1,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_2,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_3,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_1,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_2,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_3,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
     }
 ]
 
