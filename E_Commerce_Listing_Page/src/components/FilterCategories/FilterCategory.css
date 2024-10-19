@@ -1,0 +1,12 @@
+
+.filter-category-item{
+    color: #424040;
+    font-weight: 400;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

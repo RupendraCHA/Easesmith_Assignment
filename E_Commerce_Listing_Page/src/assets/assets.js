@@ -10,6 +10,62 @@ import Nursary_8 from "./Nursary_8.png"
 import Nursary_9 from "./Nursary_9.png"
 import Nursary_10 from "./Nursary_10.png"
 
+import Product_1 from "./Product_1.jpeg"
+import Product_2 from "./Product_2.jpeg"
+import Product_3 from "./Product_3.jpeg"
+import review from "./review_stars.png"
+import wishlist from "./wishlist.png"
+
+export const productsListArray = [
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_1,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_2,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    },
+    {
+        product_name: "Monsterra",
+        description: "Indoor plant, Low Maintenance",
+        image: Product_3,
+        review_icon: review,
+        wishlist_icon: wishlist,
+        original_price: 359,
+        discounted_price: 299,
+        rating: 4.9,
+
+    }
+]
+
+export const filterCategoriesList = [
+    "Type of Plants",
+    "Price",
+    "Nursery",
+    "Ideal Plants Location",
+    "Indoor/Outdoor",
+    "Maintenance",
+    "Plant Size",
+    "Water Schedule",
+    "Color",
+    "Seasonal",
+    "Light Efficient"
+]
+
 export const nursary_list = [
     {
         menu_name: "Monstera Deliciosa – Large, holey leaves.",
