@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./ProductsListingPage.css"
 import FilterCategory from '../FilterCategories/FilterCategory'
 import { filterCategoriesList } from '../../assets/assets'
 import { productsListArray } from '../../assets/assets'
 import ProductItem from '../ProductItem/ProductItem'
+import ModelPopup from '../ModelPopup/Model'
+import { StoreContext } from '../../context/StoreContext'
 
 
 const ProductsListingPage = () => {
+
+    const {setShowModel, showModel} = useContext(StoreContext)
+
   return (<>
     <div className='products-listing-page'>
         <div className='left'>
@@ -17,6 +22,7 @@ const ProductsListingPage = () => {
             <hr/>
             <FilterCategory/>
         </div>
+        {showModel ? <ModelPopup /> : <></>}
         <div className='right'>
             <div className='product-count'>
                 <p>300 products</p>
@@ -31,6 +37,7 @@ const ProductsListingPage = () => {
                     }
                 </select>
             </div>
+            
             <div className='product-items-list'>
                 {
                     productsListArray.map((product, index) => {

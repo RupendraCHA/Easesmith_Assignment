@@ -3,6 +3,7 @@ import "./ProductItem.css"
 import {Link} from 'react-router-dom'
 import { StoreContext } from '../../context/StoreContext'
 
+
 const ProductItem = (props) => {
 
     const {product} = props
@@ -17,10 +18,16 @@ const ProductItem = (props) => {
       rating
     } = product
 
-    const {productDetails, setProductDetails} = useContext(StoreContext)
+    const {setShowModel, setProductDetails} = useContext(StoreContext)
+
+    const handleClick = () => {
+      setShowModel(true)
+      setProductDetails(product)
+    }
 
   return (
     <div className='product-item'>
+    
       <div className='image-container'>
         <img className="wishlist-icon" src={wishlist_icon} alt='wishlistIcon'/>
         <img className='plant-image' src={image} alt={product_name}/>
@@ -38,8 +45,8 @@ const ProductItem = (props) => {
           <p className='discounted-price'>₹ {discounted_price}</p>
         </div>
         <div className='buttons'>
-          <button className='common add-to-cart-button'>
-          <p>-</p>
+          <button onClick={handleClick} className='common add-to-cart-button'>
+            <p>-</p>
             <p>Add to cart</p>
             <p>+</p>
           </button>

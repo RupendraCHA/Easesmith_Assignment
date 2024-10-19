@@ -55,6 +55,7 @@
 @media (max-width: 800px){
     .products-listing-page{
         flex-direction: column;
+        height: 200vh;
         .left{
             width: 50%;
         }

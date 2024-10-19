@@ -12,7 +12,7 @@ const Thankyou = () => {
     <div className='thankyou'>
         
         <div className="thankyou-card">
-            <p className="thank-message">Thank you for your Intrest in our product <span>{productDetails.product_name}.</span></p>
+            <p className="thank-message">Hi there, Thank you for viewing our product <span>{productDetails.product_name}.</span></p>
             <img src='./Thankyou.jpg' alt=''/>
             <div className="products-button">
                 <Link to="/"><button className="button">Click here to Go and View more Products</button></Link>
@@ -23,7 +23,6 @@ const Thankyou = () => {
                 <button>Subscribe</button>
             </div>
         </div>
-        
     </div>
   )
 }
