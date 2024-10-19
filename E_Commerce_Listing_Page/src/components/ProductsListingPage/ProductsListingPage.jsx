@@ -10,7 +10,7 @@ import { StoreContext } from '../../context/StoreContext'
 
 const ProductsListingPage = () => {
 
-    const {setShowModel, showModel} = useContext(StoreContext)
+    const {showModel} = useContext(StoreContext)
 
   return (<>
     <div className='products-listing-page'>

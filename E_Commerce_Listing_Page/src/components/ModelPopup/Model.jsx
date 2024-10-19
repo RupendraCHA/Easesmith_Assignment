@@ -11,18 +11,18 @@ const ModelPopup = () => {
     const {setShowModel, productDetails} = useContext(StoreContext)
 
     const {
-        product_name, 
-        description, 
-        image, 
-        review_icon, 
-        wishlist_icon, 
-        original_price, 
-        discounted_price,
-        rating
+        productName, 
+      description, 
+      image, 
+      reviewIcon, 
+      wishlistIcon, 
+      originalPrice, 
+      discountedPrice,
+      rating
       } = productDetails
 
     return (
-        <div className='model-popup'>
+        <div className='model-popup' onClick={() => setShowModel(false)}>
             <div className='model-popup-container'>
                 <div className='model-popup-title'>
                     <h2>Product Details</h2>
@@ -30,18 +30,18 @@ const ModelPopup = () => {
                 </div>
                 <div className="product-details-section">
                     
-                    <img className="plant-picture" src={image} alt={product_name}/>
+                    <img className="plant-picture" src={image} alt={productName}/>
                     <div>
-                        <h3>{product_name}</h3>
+                        <h3>{productName}</h3>
                         <p>{description}</p>
                     </div>
                     <div className="product-review">
-                        <img className="product-review-icon" src={review_icon} alt="productReview"/>
+                        <img className="product-review-icon" src={reviewIcon} alt="productReview"/>
                         <p>{rating}</p>
                     </div>
                     <div className='prices'>
-                        <p className='original-price'>₹ {original_price}</p>
-                        <p className='discounted-price'>₹ {discounted_price}</p>
+                        <p className='original-price'>₹ {originalPrice}</p>
+                        <p className='discounted-price'>₹ {discountedPrice}</p>
                     </div>
                     <div className="cart-buttons">
                         <button onClick={() => setShowModel(false)} className="common cancel">Cancel</button>

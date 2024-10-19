@@ -10,7 +10,7 @@
         justify-content: center;
         .button{
                 padding: 12px 10px;
-                background-color: #087ac2;
+                background-color: rgb(30, 30, 186);
                 border: none;
                 cursor: pointer;
                 color: #fff;
@@ -40,8 +40,8 @@
             margin-bottom: 12px;
         }
         span{
-            font-size: max(2.5vw, 18px);
-            color: #000;
+            font-size: max(2.2vw, 18px);
+            color: black;
         }
         p{
             font-size: max(1vw, 14px);
