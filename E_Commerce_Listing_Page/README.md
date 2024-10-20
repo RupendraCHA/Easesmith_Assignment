@@ -11,6 +11,10 @@
   ### 3) Model Popup is floated over Product listing page after click the "Add to Cart button":
   After clicking the 'Add to Cart' button, a modal popup appears displaying the product's details, including the name, description, rating, reviews, original         price, and discounted price. The modal can be closed by clicking the cancel button, the 'X' icon, or anywhere outside the modal on the webpage, returning the       user to the product listing page.
 
+  ### 4) Pagination is shown below the Products Listing section:
+  The number of pages is adjusted based on the filtered products, with a default display of 20 products per page if no input is provided.
+  This website has 300 products initially with 30 unique product details but all images are not unique.
+
   
 # Component Structure:
   ## Header Page consist of:
