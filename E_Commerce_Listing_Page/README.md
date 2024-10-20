@@ -17,6 +17,13 @@
     which can take you the website after clicking it
   ## Technologies used:
   ### React JS
+
+  ## Concepts utilized in React JS for creating efficient functioning of the website:
+  #### Functional Components:- 
+  ##### for Components creation
+  #### React Hooks:- 
+  ##### used useState for creating and initializing the variables & used useContext for accessing the functions and variables from the react context
+  ####
   
 
 # Component Structure:
