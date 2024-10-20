@@ -10,7 +10,7 @@ import { StoreContext } from '../../context/StoreContext'
 
 const ProductsListingPage = () => {
 
-    const {showModel, filteredProducts} = useContext(StoreContext)
+    const {showModel, filteredProducts, searchItem, setSearchItem} = useContext(StoreContext)
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 20;
     const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
@@ -25,6 +25,8 @@ const ProductsListingPage = () => {
             setCurrentPage(pageNumber);
         }
     };
+
+
 
   return (<>
     <div className='products-listing-page'>
