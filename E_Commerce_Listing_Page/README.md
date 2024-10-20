@@ -1,6 +1,6 @@
-# Easesmith Assignment by RUPENDRA CH
+# Easesmith E-Commerce Listing Page by RUPENDRA CH
 
-## Functionalities included in the E-Commerce Listing Page Assignment:
+## Functionalities included in the E-Commerce Listing Page:
   ### 1) Searching with a product name in the given search bar:
   When a plant name is entered in the search bar, it filters through all the products and displays the ones with matching names from the available products.            The number of pages to display is also calculated, and if no products match the input, a message saying 'Sorry, no products are there with the given input' is shown.
 
