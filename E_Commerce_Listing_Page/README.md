@@ -2,7 +2,7 @@
 
 
 ## Execution/Set up of Project(Website):
-  ### Ways to open website:-
+  ### Approaches to Launch a Website:-
   #### 1) Using hosted link on reder: https://easesmith-assignment.onrender.com
   It directly opens the website
   #### 2) Using the github link: https://github.com/RupendraCHA/Easesmith_Assignment
