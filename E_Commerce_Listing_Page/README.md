@@ -11,7 +11,7 @@
     b) Create folder in the sytem and open it in the any IDE for development
     c) In the IDE Terminal using this command - git clone repository_url, anyone can comfortbly 
     clone the project in the folder you are created previously
-    5) In the IDE Terminal, go to the project root folder and run this "npm install"
+    5) In the IDE Terminal, go to the project root folder and run this --"npm install"
     command to install all the dependencies used during the project creation
     6) Now, in the same IDE Terminal run this "npm run dev" command to start app on the browser, after this a link is given 
     which can take you the website after clicking it
