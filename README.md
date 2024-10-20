@@ -2,7 +2,7 @@
 
 # Component Structure:
   1) Creating Header Page, it contains:
-       ## <Navbar />
+       ##<Navbar />
        ## <Searchbar/>
        ## <PlantsPots/>
        ## <NursaryMenuTypes/>
