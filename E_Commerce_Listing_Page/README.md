@@ -44,12 +44,13 @@
        d) NursaryMenuTypes Component
   ### 2) Products Listing Page consist of:
        a) Filter Items Section
-       b) ProductItem Component
-       c) Pagination Section
-       d) Thankyou Page
-       e) Model Popup
+       b) ProductItem Component - It has Pagination Section in it
+       c) Thankyou Page
+       d) Model Popup
   ### 3) Footer Page consist of:
        c) Footer Component
+  ### 4) Not Found Page:
+       d) NotFound Component
 
 # Functionalities included in the E-Commerce Listing Page:
   #### 1) Searching with a product name in the given search bar:
