@@ -15,10 +15,10 @@
     command to install all the dependencies used during the project creation
     6) Now, in the same IDE Terminal run this ---- "npm run dev" command to start app on the browser, after this a link is given 
     which can take you the website after clicking it
-  ## Technologies used:
+# Technologies used:
   ### React JS
 
-  ## Concepts utilized in React JS for creating efficient functioning of the website:
+# Concepts utilized in React JS for creating efficient functioning of the website:
   #### Functional Components :- 
   ###### for Creating the components
   
