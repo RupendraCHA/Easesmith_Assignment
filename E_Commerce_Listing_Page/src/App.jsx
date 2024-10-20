@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Footer from "./components/Footer/Footer.jsx"
 import ProductsListingPage from './components/ProductsListingPage/ProductsListingPage.jsx'
 import Thankyou from './components/ThankyouPage/Thankyou.jsx'
+import NotFound from './components/NotFound/NotFound.jsx'
 
 
 
@@ -11,12 +12,28 @@ const App = () => {
 
   return (
     <div className='app'>
-      <Header/>
+      
       <Routes>
-        <Route exact path='/' element={<ProductsListingPage/>}></Route>
-        <Route exact path='/thankyou' element={<Thankyou/>}></Route>
+        <Route 
+        exact path='/' element={
+          <>
+          <Header/>
+          <ProductsListingPage/>
+          <Footer/>
+          </>
+        }>
+        </Route>
+        <Route exact path='/thankyou' element={
+          <>
+            <Header/>
+            <Thankyou/>
+            <Footer/>
+          </>
+          }>
+        </Route>
+        <Route path='*' element={<NotFound/>}></Route>
       </Routes>
-      <Footer/>
+      
     </div>
   )
 }
