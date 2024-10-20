@@ -1,7 +1,7 @@
 # Easesmith Assignment by RUPENDRA CH
 
 # Component Structure:
-  1) Creating Header Page, it contains:
+  ## Creating Header Page, it contains:
        a) Navbar Component
        b) Searchbar Component
        c) PlantsPots Component
