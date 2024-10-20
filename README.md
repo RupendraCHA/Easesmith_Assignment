@@ -2,16 +2,18 @@
 
 # Component Structure:
   1) Creating Header Page, it contains:
-       ## Navbar Component
-       ## Searchbar Component
-       ## PlantsPots Component
-       ## NursaryMenuTypes Component
+       a) Navbar Component
+       b) Searchbar Component
+       c) PlantsPots Component
+       d) NursaryMenuTypes Component
   2) Products Listing Page, it contains:
-       ## Filter Items Section
-       ## ProductItem Component
-       ## Pagination Section
-  3) Footer Page, it contains:
-       ## Footer Component
+       a) Filter Items Section
+       b) ProductItem Component
+       c) Pagination Section
+       d) Thankyou Page
+       e) Model Popup
+  4) Footer Page, it contains:
+       c) Footer Component
 
 # Component Structure:
   1) 
