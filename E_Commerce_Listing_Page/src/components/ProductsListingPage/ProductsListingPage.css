@@ -42,6 +42,7 @@
             width: 100px;
             cursor: pointer;
         }
+        
        }
        .product-items-list{
         display: flex;
@@ -51,6 +52,15 @@
         margin-bottom: 50px;
         
        }
+    }
+}
+.no-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    h3{
+        font-size: max(2vw, 20px);
     }
 }
 .pagination{

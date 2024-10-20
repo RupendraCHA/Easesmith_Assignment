@@ -1,4 +1,5 @@
 import { createContext, useState} from "react";
+import {productsListArray} from "../assets/assets.js"
 
 export const StoreContext = createContext(null)
 
@@ -8,7 +9,11 @@ const StoreContextProvider = (props) => {
     const [currState, setCurrState] = useState("Sign Up")
     const [showModel, setShowModel] = useState(false)
 
-    // console.log(productDetails)
+    const [searchItem, setSearchItem] = useState('')
+
+  const filteredProducts = productsListArray.filter((product) =>
+    product.productName.toLowerCase().includes(searchItem.toLowerCase())
+  );
 
     const contextValue = {
         productDetails,
@@ -16,7 +21,10 @@ const StoreContextProvider = (props) => {
         currState,
         setCurrState,
         showModel,
-        setShowModel
+        setShowModel,
+        searchItem,
+        filteredProducts,
+        setSearchItem
     }
     return (
         <StoreContext.Provider value={contextValue}>

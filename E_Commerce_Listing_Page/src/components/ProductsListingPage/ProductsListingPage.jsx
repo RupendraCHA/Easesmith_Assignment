@@ -10,15 +10,15 @@ import { StoreContext } from '../../context/StoreContext'
 
 const ProductsListingPage = () => {
 
-    const {showModel} = useContext(StoreContext)
+    const {showModel, filteredProducts} = useContext(StoreContext)
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 20;
-
-    const totalPages = Math.ceil(productsListArray.length / itemsPerPage);
+    const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
 
     const indexOfLastItem = currentPage * itemsPerPage;
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-    const currentItems = productsListArray.slice(indexOfFirstItem, indexOfLastItem);
+    // const currentItems = productsListArray.slice(indexOfFirstItem, indexOfLastItem);
+    const currentItems = filteredProducts.slice(indexOfFirstItem, indexOfLastItem);
 
     const paginate = (pageNumber) => {
         if (pageNumber > 0 && pageNumber <= totalPages) {
@@ -51,7 +51,9 @@ const ProductsListingPage = () => {
                     }
                 </select>
             </div>
-            
+            {totalPages <= 0 ? (<div className='no-products'>
+                  <h3>Sorry! There are no products available with your input.</h3>
+                </div>) : ""}
             <div className='product-items-list'>
                 {
                     currentItems.map((product, index) => {
