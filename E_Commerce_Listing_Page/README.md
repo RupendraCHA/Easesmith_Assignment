@@ -1,4 +1,11 @@
-# Easesmith E-Commerce Listing Page by RUPENDRA CH
+# Easesmith E-Commerce Listing Page by RUPENDRA CHANDALURI
+
+
+## Execution of workflow:
+  ### Ways to open website:-
+  #### 1) Using hosted link on reder: https://easesmith-assignment.onrender.com
+  It directly opens the website
+  #### 2) Using the github link: 
 
 ## Functionalities included in the E-Commerce Listing Page:
   ### 1) Searching with a product name in the given search bar:
