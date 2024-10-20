@@ -10,8 +10,8 @@ import { StoreContext } from '../../context/StoreContext'
 
 const ProductsListingPage = () => {
 
-    const {showModel, filteredProducts, searchItem, setSearchItem} = useContext(StoreContext)
-    const [currentPage, setCurrentPage] = useState(1);
+    const {showModel, filteredProducts, searchItem, setSearchItem, currentPage, setCurrentPage} = useContext(StoreContext)
+    // const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 20;
     const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
 

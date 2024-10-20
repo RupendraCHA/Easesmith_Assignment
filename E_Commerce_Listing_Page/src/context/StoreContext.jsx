@@ -6,9 +6,8 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props) => {
 
     const [productDetails, setProductDetails] = useState({product_name: "FIRST CLICK ON VIEW PRODUCT."})
-    const [currState, setCurrState] = useState("Sign Up")
     const [showModel, setShowModel] = useState(false)
-
+    const [currentPage, setCurrentPage] = useState(1);
     const [searchItem, setSearchItem] = useState('')
 
   const filteredProducts = productsListArray.filter((product) =>
@@ -18,13 +17,13 @@ const StoreContextProvider = (props) => {
     const contextValue = {
         productDetails,
         setProductDetails,
-        currState,
-        setCurrState,
         showModel,
         setShowModel,
         searchItem,
         filteredProducts,
-        setSearchItem
+        setSearchItem,
+        currentPage,
+        setCurrentPage
     }
     return (
         <StoreContext.Provider value={contextValue}>
