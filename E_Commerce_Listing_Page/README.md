@@ -15,6 +15,9 @@
     command to install all the dependencies used during the project creation
     6) Now, in the same IDE Terminal run this ---- "npm run dev" command to start app on the browser, after this a link is given 
     which can take you the website after clicking it
+  ## Technologies used:
+  ### React JS
+  
 
 # Component Structure:
   ## Header Page consist of:
