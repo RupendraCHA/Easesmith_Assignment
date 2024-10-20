@@ -1,7 +1,7 @@
 # Easesmith E-Commerce Listing Page by RUPENDRA CHANDALURI
 
 
-## Execution of workflow:
+## Execution/Set up of Project(Website):
   ### Ways to open website:-
   #### 1) Using hosted link on reder: https://easesmith-assignment.onrender.com
   It directly opens the website
