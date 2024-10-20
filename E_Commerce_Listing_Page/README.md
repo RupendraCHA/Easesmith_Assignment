@@ -6,6 +6,15 @@
   #### 1) Using hosted link on reder: https://easesmith-assignment.onrender.com
   It directly opens the website
   #### 2) Using the github link: https://github.com/RupendraCHA/Easesmith_Assignment
+    ## Steps:
+    a) First copy the code repository link from the given github path
+    b) Create folder in the sytem and open it in the any IDE for development
+    c) In the IDE Terminal using this command - git clone repository_url, anyone can comfortbly 
+    clone the project in the folder you are created previously
+    5) In the IDE Terminal, go to the project root folder and run this "npm install"
+    command to install all the dependencies used during the project creation
+    6) Now, in the same IDE Terminal run this "npm run dev" command to start app on the browser, after this a link is given 
+    which can take you the website
 
 ## Functionalities included in the E-Commerce Listing Page:
   ### 1) Searching with a product name in the given search bar:
