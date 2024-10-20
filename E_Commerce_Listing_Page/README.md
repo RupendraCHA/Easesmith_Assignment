@@ -5,7 +5,7 @@
   ### Ways to open website:-
   #### 1) Using hosted link on reder: https://easesmith-assignment.onrender.com
   It directly opens the website
-  #### 2) Using the github link: 
+  #### 2) Using the github link: https://github.com/RupendraCHA/Easesmith_Assignment
 
 ## Functionalities included in the E-Commerce Listing Page:
   ### 1) Searching with a product name in the given search bar:
@@ -22,6 +22,11 @@
   The number of pages is adjusted based on the filtered products, with a default display of 20 products per page if no input is provided.
   This website has 300 products initially with 30 unique product details but all images are not unique.
 
+  ### 5) Header Page:
+  It contains a) Navbar Component
+       b) Searchbar Component
+       c) PlantsPots Component
+       d) NursaryMenuTypes Component
   
 # Component Structure:
   ## Header Page consist of:
