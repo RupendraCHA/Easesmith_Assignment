@@ -7,6 +7,8 @@
   ### 2) Thankyou page is shown on clicking "View Product button":
   On this thank you page, a personalized greeting is displayed, showing the product name the user was interested in. 
   Additionally, there is a button that redirects the user back to the product listing page upon clicking."
+
+  ### 3) Model Popup is floated over Product listing page after click the "Add to Cart button":
   
 
 # Component Structure:
