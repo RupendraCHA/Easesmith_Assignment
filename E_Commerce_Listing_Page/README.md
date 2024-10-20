@@ -19,12 +19,17 @@
   ### React JS
 
   ## Concepts utilized in React JS for creating efficient functioning of the website:
-  #### Functional Components:- 
+  #### Functional Components :- 
   ###### for Creating the components
-  #### React Hooks:- 
+  
+  #### React Hooks :- 
   ###### used ---- "useState" for creating and initializing the variables & used ---- "useContext" for accessing the functions and variables from the react context
-  #### React Context:-
+  
+  #### React Context :-
   ###### It is helped in managing the "state" of the website
+  
+  #### Npm Packages used are:
+  ###### "react-router-dom" - for navigating between the pages
   
 
 # Component Structure:
