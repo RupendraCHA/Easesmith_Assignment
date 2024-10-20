@@ -9,8 +9,9 @@
   Additionally, there is a button that redirects the user back to the product listing page upon clicking."
 
   ### 3) Model Popup is floated over Product listing page after click the "Add to Cart button":
-  
+  After clicking the 'Add to Cart' button, a modal popup appears displaying the product's details, including the name, description, rating, reviews, original         price, and discounted price. The modal can be closed by clicking the cancel button, the 'X' icon, or anywhere outside the modal on the webpage, returning the       user to the product listing page.
 
+  
 # Component Structure:
   ## Header Page consist of:
        a) Navbar Component
