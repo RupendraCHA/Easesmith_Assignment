@@ -67,5 +67,6 @@
        b) Searchbar Component
        c) PlantsPots Component
        d) NursaryMenuTypes Component
+### The challenges are not big but having the more practice in hands helped me to develop the website with ease.
   
 
