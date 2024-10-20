@@ -31,7 +31,7 @@ const ModelPopup = () => {
                 <div className="product-details-section">
                     
                     <img className="plant-picture" src={image} alt={productName}/>
-                    <div>
+                    <div className="name-description">
                         <h3>{productName}</h3>
                         <p>{description}</p>
                     </div>
