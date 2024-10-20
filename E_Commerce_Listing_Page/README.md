@@ -30,6 +30,7 @@
   
   #### Npm Packages used are:
   ###### "react-router-dom" - for navigating between the pages
+  
 
   #### Media Quaries:
   ###### For making website responsive accross all the devices
@@ -65,11 +66,14 @@
   The number of pages is adjusted based on the filtered products, with a default display of 20 products per page if no input is provided.
   This website has 300 products initially with 30 unique product details but all images are not unique.
 
-  #### 5) Header Page:
-  It contains a) Navbar Component
-       b) Searchbar Component
-       c) PlantsPots Component
-       d) NursaryMenuTypes Component
+  #### 5) Header Page: It contains 
+  ###### a) Navbar Component
+  ###### b) Searchbar Component
+  ###### c) PlantsPots Component
+  ###### d) NursaryMenuTypes Component
+    
+  ### 6) Invalid URL address page:
+  If user give wrong url or path, the website navigates to the "Not Found Page"
 # Challenges:-
 ### The challenges are not big but having the more practice in hands helped me to develop the website with ease.
   
