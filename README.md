@@ -9,12 +9,27 @@
     ## Steps:
     a) First copy the code repository link from the given github path
     b) Create folder in the sytem and open it in the any IDE for development
-    c) In the IDE Terminal using this command - git clone repository_url, anyone can comfortbly 
+    c) In the IDE Terminal using this command:---- "git clone repository_url, anyone can comfortbly" 
     clone the project in the folder you are created previously
-    5) In the IDE Terminal, go to the project root folder and run this "npm install"
+    5) In the IDE Terminal, go to the project root folder and run this ---- "npm install"
     command to install all the dependencies used during the project creation
-    6) Now, in the same IDE Terminal run this "npm run dev" command to start app on the browser, after this a link is given 
+    6) Now, in the same IDE Terminal run this ---- "npm run dev" command to start app on the browser, after this a link is given 
     which can take you the website after clicking it
+
+# Component Structure:
+  ## Header Page consist of:
+       a) Navbar Component
+       b) Searchbar Component
+       c) PlantsPots Component
+       d) NursaryMenuTypes Component
+  ## Products Listing Page consist of:
+       a) Filter Items Section
+       b) ProductItem Component
+       c) Pagination Section
+       d) Thankyou Page
+       e) Model Popup
+  ## Footer Page consist of:
+       c) Footer Component
 
 ## Functionalities included in the E-Commerce Listing Page:
   ### 1) Searching with a product name in the given search bar:
@@ -37,17 +52,4 @@
        c) PlantsPots Component
        d) NursaryMenuTypes Component
   
-# Component Structure:
-  ## Header Page consist of:
-       a) Navbar Component
-       b) Searchbar Component
-       c) PlantsPots Component
-       d) NursaryMenuTypes Component
-  ## Products Listing Page consist of:
-       a) Filter Items Section
-       b) ProductItem Component
-       c) Pagination Section
-       d) Thankyou Page
-       e) Model Popup
-  ## Footer Page consist of:
-       c) Footer Component
+
